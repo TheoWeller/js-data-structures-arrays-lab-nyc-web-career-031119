@@ -25,5 +25,6 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   let myNewArray = [...drivers];
-  return myNewArray.unshift(name)
+  myNewArray.unshift(name);
+  return myNewArray;
 }
