@@ -28,3 +28,8 @@ function prependDriver(name) {
   myNewArray.unshift(name);
   return myNewArray;
 }
+
+function removeLastDriver() {
+  let myNewArray = drivers.pop();
+  return myNewArray;
+}
