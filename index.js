@@ -34,3 +34,9 @@ function removeLastDriver() {
   myNewArray.pop();
   return myNewArray;
 }
+
+function removeFirstDriver() {
+  let myNewArray = [...drivers]
+  myNewArray.shift();
+  return myNewArray;
+}
